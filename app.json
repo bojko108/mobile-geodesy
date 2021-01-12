@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Mobile Geodesy",
+    "slug": "mobile-geodesy",
+    "description": "Navigate to POIs, transform coordinates and more...",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "version": "1.4.5",
+    "platforms": ["ios", "android", "web"],
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0e9c8f"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bojkosoft.mobilegeodesy",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDFIb9jx_P4v7eZrYKtVG3pI16lJt0yG_s"
+        }
+      }
+    }
+  }
+}
