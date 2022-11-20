@@ -2,4 +2,4 @@
 
 Navigate to POIs, transform coordinates and more.
 
-Mobile Geodesy is a mapping application, which can be used for collecting data, viewing different maps - offline nad online and more. The application is capable of displaying tilesets, served from [Mobile Tile Server App]() or any other tile server. At runtime, the Mobile Geodesy App will connect to `http://localhost:{port}/availabletilesets` and will download the list of all available tilesets.
+Mobile Geodesy is a mapping application, which can be used for collecting data, viewing different maps - offline, online and more. The application is capable of displaying tilesets, served from [Mobile Tile Server App](https://github.com/bojko108/mobile-tile-server) ([Google Play](https://play.google.com/store/apps/details?id=com.bojko108.mobiletileserver&hl=en&gl=US)) or any other tile server. At runtime, the Mobile Geodesy App will fetch the list of available tilesets from `http://localhost:{port}/availabletilesets`.
